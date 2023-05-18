@@ -1,5 +1,5 @@
 import {useState} from "react";
-import { FaEquals, FaTimes} from "react-icons/all";
+import { FaEquals} from "react-icons/all";
 import image from "./assets/image.png";
 import './App.css'
 
