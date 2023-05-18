@@ -303,7 +303,7 @@ h5 {
   font-size: 1.8rem;
 }
 .image-text {
-  margin: 10px auto;
+  margin: 40px auto;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: auto;
@@ -311,8 +311,6 @@ h5 {
   grid-auto-flow: column;
   align-content: start;
   align-items: center;
-  row-gap: 10px;
-  column-gap: 10px;
 }
 .img-icon {
   height: 120px;
@@ -337,16 +335,14 @@ h5 {
   width: 60px;
 }
 .img-text {
-  font-size: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-size: 1.4rem;
   padding-bottom: 10px;
 }
 h6 {
-  font-weight: 100;
-  position: relative;
-  left: 40px;
+  font-weight: 400;
+position: relative;
+left:40px;
+font-size: 1rem;
 }
 
 .right-Otter {
@@ -393,28 +389,39 @@ h6 {
   text-align: center;
   background-color: #001e34;
   color: white;
-  border-radius:8rem 8rem 0 0;
+  /* border-radius:2rem 2rem 0 0; */
 }
 .footer-layout {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 70px;
 }
 a {
   color: white;
   padding-bottom: 30px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+a:hover{
+  color: #b5fcfc;
 }
 .footer-text {
+  text-transform: uppercase;
   padding-bottom: 30px;
+  font-size: 0.8rem;
 }
 .logo-footer{
   padding-top: 70px;
   color: white;
 }
 .par-wrap{
-  display: block;
-  width: 200px;
+  display: flex;
+  flex-direction: column;
   text-align: left;
 
+}
+
+.foot{
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 5px;
 }

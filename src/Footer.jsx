@@ -128,35 +128,35 @@ export const Footer = () => {
           id="footeryear"
           data-tracking-type="button"
           aria-current="page"
-          className="footer__foot-link w--current"
+          className="footer__foot-link w--current foot"
         >
           © <span className="footer__year">2023</span> Otter.ai
         </a>
         <a
           href="https://otter.ai/terms-of-service?ref=landingfolio"
           data-tracking-type="button"
-          className="footer__foot-link"
+          className="footer__foot-link foot"
         >
           Terms of Service
         </a>
         <a
           data-tracking-type="button"
           href="https://otter.ai/privacy-policy?ref=landingfolio"
-          className="footer__foot-link"
+          className="footer__foot-link foot"
         >
           Privacy Policy
         </a>
         <a
           data-tracking-type="button"
           href="https://otter.ai/jp?ref=landingfolio"
-          className="footer__foot-link"
+          className="footer__foot-link foot"
         >
           JP
         </a>
         <a
           data-tracking-type="button"
           href="https://otter.ai/zoom?ref=landingfolio"
-          className="footer__foot-link"
+          className="footer__foot-link foot"
         >
           Zoom
         </a>

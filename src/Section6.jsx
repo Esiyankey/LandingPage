@@ -17,7 +17,7 @@ export const Section6 = () => {
       <div className="section6">
         <h3 className="Otter-text">Which Otter is right for you?</h3>
         <div className="image-text">
-          <div className="img-icon black" data-aos="fade-up">
+          <div className="img-icon black" data-aos="zoom-in">
             <img
               src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f17a049ba94a25c93ae245_icon-business.svg"
               alt=" education"
@@ -26,16 +26,16 @@ export const Section6 = () => {
           </div>
 
           <div className="par-wrap">
-            <p className="img-text" data-aos="fade-up">
+            <p className="img-text" data-aos="zoom-in">
               Get the most out of your meetings
             </p>
-            <h6 data-aos="fade-up">
-              For Bussiness <FaAngleRight />
+            <h6 data-aos="zoom-in">
+              For Business <FaAngleRight />
             </h6>
           </div>
         </div>
         <div className="image-text">
-          <div className="img-icon green" data-aos="fade-up">
+          <div className="img-icon green" data-aos="zoom-in">
             <img
               src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f179e8021779149f1c2891_icon-education.svg"
               alt="graduation"
@@ -44,16 +44,16 @@ export const Section6 = () => {
           </div>
 
           <div className="par-wrap">
-            <p className="img-text" data-aos="fade-up">
+            <p className="img-text" data-aos="zoom-in">
               Help students and Faculty succeed
             </p>
-            <h6 data-aos="fade-up">
+            <h6 data-aos="zoom-in">
               For Education <FaAngleRight />
             </h6>
           </div>
         </div>
         <div className="image-text">
-          <div className="img-icon violet" data-aos="fade-up">
+          <div className="img-icon violet" data-aos="zoom-in">
             <img
               src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f179f45b83cce619da1e48_icon-individuals.svg"
               alt="individuals"
@@ -62,10 +62,10 @@ export const Section6 = () => {
           </div>
 
           <div className="par-wrap">
-            <p className="img-text" data-aos="fade-up">
+            <p className="img-text" data-aos="zoom-in">
               For all your needs
             </p>
-            <h6 data-aos="fade-up">
+            <h6 data-aos="zoom-in">
               For Individuals <FaAngleRight />
             </h6>
           </div>
