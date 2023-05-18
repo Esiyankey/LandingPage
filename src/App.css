@@ -219,10 +219,10 @@ p {
   row-gap: 30px;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 90px;
-  padding-top: 40px;
 }
 .logo-img {
-  opacity: 0.35;
+  color: #9fb0bd;
+  opacity: 0.2;
 }
 /*section3*/
 .section3 {
@@ -294,15 +294,19 @@ h5 {
   width: 10rem;
   border-radius: 15px;
   position: absolute;
-  top:40%;
-  left: 75%;
-  transform: translate(-50%, -50%);
+  top:-30px;
+  left: 55%;
+  /* transform: translate(-50%, -50%); */
 
 }
 .section6 {
   text-align: center;
   padding: 20px;
   position: relative;
+}
+.Otter-text{
+  margin-bottom: 70px;
+  font-size: 1.8rem;
 }
 .image-text {
   margin: 10px auto;
@@ -394,7 +398,7 @@ h6 {
   text-align: center;
   background-color: #001e34;
   color: white;
-  border-radius: 100px 100px 0 0;
+  border-radius:8rem 8rem 0 0;
 }
 .footer-layout {
   display: flex;
@@ -408,4 +412,7 @@ a {
 }
 .footer-text {
   padding-bottom: 30px;
+}
+.logo-footer{
+  padding-top: 70px;
 }

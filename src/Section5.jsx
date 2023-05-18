@@ -32,6 +32,7 @@ export const Section5 = () => {
             src="https://assets-global.website-files.com/618e9316785b3582a5178502/63e9702cc21faa6641d05cbf_automated-summary-top%402x-p-500.jpg"
             alt="image here"
             className="image4"
+             data-aos="zoom-in-up"
           />
       </div>
     </div>

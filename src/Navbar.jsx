@@ -31,11 +31,9 @@ export const Navbar = () => {
           <div className="menu-icons">
             <div className="menu-wrap">
               <div className="menu"> Menu</div>
-              <div className="close"> Close</div>
             </div>
             <div className="icon-stack">
               <FaEquals className="icon" />
-              <FaTimes className="icon times-icon" />
             </div>
           </div>
         </div>

@@ -1,8 +1,12 @@
 import { useState } from "react";
+import image from "./assets/image.png";
 
 export const Footer = () => {
   return (
     <div className="footer">
+      <div className="logo-footer">
+        <img src={image} alt="Logo here" className="image1" />
+      </div>
       <div class="footer-layout">
         <div class="footer-text">why otter.ai</div>
         <a
