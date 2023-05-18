@@ -42,13 +42,7 @@ body {
 .menu-wrap {
   position: relative;
 }
-.close,
-.times-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-}
+
 .icon-stack {
   position: relative;
   width: 20px;
@@ -351,7 +345,8 @@ h5 {
 }
 h6 {
   font-weight: 100;
-  text-align: center;
+  position: relative;
+  left: 40px;
 }
 
 .right-Otter {
@@ -415,4 +410,11 @@ a {
 }
 .logo-footer{
   padding-top: 70px;
+  color: white;
+}
+.par-wrap{
+  display: block;
+  width: 200px;
+  text-align: left;
+
 }
