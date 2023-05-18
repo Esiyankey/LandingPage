@@ -143,8 +143,8 @@ sup {
 }
 h1 {
   padding-bottom: 27px;
-  font-size: 2.5rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 300;
 }
 .Text {
   font-size: 1.3rem;
@@ -188,13 +188,13 @@ h1 {
   margin: 60px auto;
 }
 .heading2 {
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 p {
   padding: 25px 40px;
   padding-bottom: 0px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 .img {
@@ -216,7 +216,9 @@ p {
 }
 .logo-img {
   color: #9fb0bd;
-  opacity: 0.2;
+}
+.logo-images{
+  width: 105px;
 }
 /*section3*/
 .section3 {
@@ -227,12 +229,12 @@ p {
   padding-bottom: 40px;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 .p-text {
   padding: 20px 30px;
-  font-size: 1.119rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.9rem;
 }
