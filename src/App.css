@@ -184,14 +184,15 @@ h1 {
   display: block;
 }
 .hero2 {
+  /* text-align: center;
+  width: 100%; */
   text-align: center;
-  width: 100%;
   margin: 60px auto;
 }
 .heading2 {
   font-size: 1.1rem;
   font-weight: 600;
-  padding-bottom:10px ;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -221,7 +222,7 @@ p {
 .logo-img {
   color: #9fb0bd;
 }
-.logo-images{
+.logo-images {
   width: 105px;
 }
 /*section3*/
@@ -235,7 +236,7 @@ p {
 h3 {
   font-size: 1.1rem;
   font-weight: 400;
-  padding-bottom:10px ;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -429,8 +430,8 @@ a:hover {
   margin: 0;
   padding: 5px;
 }
-@media screen and (min-width:640px) {
-  .Section-Hero{
+@media screen and (min-width: 640px) {
+  .Section-Hero {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -438,14 +439,14 @@ a:hover {
     background-color: blue;
     width: 100%;
   }
-  .hero1{
+  .hero1 {
     width: 50%;
-    height:700px;
+    height: 700px;
     position: relative;
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
   }
-  h1{
+  h1 {
     padding-top: 10rem;
   }
   .video-container {
@@ -457,24 +458,22 @@ a:hover {
     width: 100%;
     height: 700px;
   }
-  
+
   .section2 {
-    display: flex;
-    
+    display: grid;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 
   .hero2 {
-    text-align:center;
+    margin: 0;
     width: 50%;
   }
-  .img{
+  .img {
     width: 50%;
   }
-  .image{
-    width: 40rem;
+  .image {
+    width: 100%;
   }
-  
-
-
 }
