@@ -4,6 +4,7 @@ import image from "./assets/image.png";
 export const Footer = () => {
   return (
     <div className="footer">
+      <div className="layout">
       <div className="logo-footer">
         <img src={image} alt="Logo here" className="image1" />
       </div>
@@ -121,8 +122,9 @@ export const Footer = () => {
           Privacy &amp;&nbsp;Security
         </a>
       </div>
+      </div>
 
-      <div className="footer-layout">
+      <div className="footer-layout foots">
         <a
           href="https://otter.ai/?ref=landingfolio"
           id="footeryear"
