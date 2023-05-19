@@ -3,8 +3,7 @@
   margin: 0;
   font-family: "Lexend", sans-serif;
 }
-.App {
-}
+
 .links,.side-links{
   display: none;
 }
@@ -167,6 +166,7 @@ p {
   row-gap: 30px;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 90px;
+  opacity: 0.6;
 }
 .logo-img {
   color: #9fb0bd;
@@ -181,6 +181,7 @@ p {
 .section3-text {
   text-align: center;
   padding-bottom: 70px;
+  opacity: 1;
 }
 h3 {
   font-size: 1.1rem;
@@ -385,7 +386,7 @@ a:hover {
   }
   .Navbar {
     background: none;
-    padding-top: 50px;
+    padding: 30px;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -479,18 +480,24 @@ a:hover {
   .Section2 {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 120px;
   }
   .hero2{
     text-align: start;
-    padding: 30px;
+    padding: 50px;
+    position: relative;
+    top:-80px;
   }
   .image {
     width: 45rem;
     margin-left: 200px;
   }
   .image4 {
-    width: 26rem;
-    top: -130px;
+    width: 22rem;
+    top: -90px;
     left: 55%;
   }
 
@@ -498,36 +505,65 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    margin-bottom: 150px;
+    gap: 100px;
   }
   .logo-images {
+    width: 110px;
+  }
+  .logo-images.dropbox{
+    width: 170px;
+  }
+  .logo-images.zoom{
+    width: 130px;
+  }
+  .logo-images.ibm{
+    width: 90px;
+  }
+  .logo-images.docomo{
     width: 150px;
   }
   .section3 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 150px;
   }
   .section3-text {
     text-align: start;
-    margin: 120px;
-
+    /* margin: 120px; */
+    padding: 120px;
+    position: relative;
+    top:-80px;
+  }
+  .image3{
+    height: 80px;
+    width: 80px;
   }
   h3,.heading2 {
     font-weight: 600;
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     padding-bottom: 50px;
   }
   .p-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     padding: 10px;
   }
+ 
   .popUp {
     height: 120px;
     width: 450px;
     margin-right: 150px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     font-size: 2.2rem;
+
+  }
+  .section3-popUps{
+    position: relative;
+    top: -60px;
   }
   .popUp.zoom {
     margin-right: 250px;
@@ -551,8 +587,8 @@ a:hover {
     justify-content: center;
     align-items: center;
   }
-  .section5.img {
-    margin: 0;
+  .flex{
+    margin-right: 180px;
   }
   .section-6 {
     display: flex;

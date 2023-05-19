@@ -22,7 +22,7 @@ export const Section3 = () => {
           app.
         </p>
       </div>
-      <div className="sectio3-popUps " data-aos="fade-up">
+      <div className="section3-popUps " data-aos="fade-up">
         <div className="popUp zoom">
           <img
             src="https://assets-global.website-files.com/618e9316785b3582a5178502/619108552fdd5200c1abbdda_icon-zoom%402x.png"
