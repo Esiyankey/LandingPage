@@ -26,19 +26,18 @@ export const Navbar = () => {
             <ul className="ul">
               <li>
                 Why Otter.ai
-                <FaAngleDown />
+                <FaAngleDown className="angle"/>
               </li>
               <li>
                 Pricing
-                <FaAngleDown />
               </li>
               <li>
                 Download
-                <FaAngleDown />
+                <FaAngleDown className="angle"/>
               </li>
               <li>
                 Resources
-                <FaAngleDown />
+                <FaAngleDown className="angle"/>
               </li>
             </ul>
           </div>
