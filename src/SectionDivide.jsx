@@ -18,11 +18,11 @@ export const SectionDivide = () => {
           Start for Free
         </a>
       </div>
-      <div className="video-container">
+      {/* <div className="video-container"> */}
         <video className="video" controls>
           <source src={video} type="video/mp4" />
         </video>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
