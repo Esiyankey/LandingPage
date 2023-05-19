@@ -4,7 +4,8 @@
   font-family: "Lexend", sans-serif;
 }
 
-.links,.side-links{
+.links,
+.side-links {
   display: none;
 }
 
@@ -333,7 +334,8 @@ h6 {
 .quotes {
   display: block;
   line-height: 1.3rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-align: start;
 }
 .name {
   margin-bottom: 10px;
@@ -390,7 +392,7 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
   }
-  .links{
+  .links {
     display: flex;
   }
   .nav-links {
@@ -438,7 +440,7 @@ a:hover {
     border: 1px solid #007aff;
     transition: 0.3s ease-in;
   }
-  .Free:hover{
+  .Free:hover {
     background-color: blue;
   }
   .menu {
@@ -459,7 +461,6 @@ a:hover {
     width: 150px;
   }
   .hero1 {
-   
     height: 100%;
     position: relative;
     margin: 0;
@@ -485,11 +486,11 @@ a:hover {
     gap: 70px;
     margin-bottom: 120px;
   }
-  .hero2{
+  .hero2 {
     text-align: start;
     padding: 50px;
     position: relative;
-    top:-80px;
+    top: -80px;
   }
   .image {
     width: 45rem;
@@ -511,16 +512,16 @@ a:hover {
   .logo-images {
     width: 110px;
   }
-  .logo-images.dropbox{
+  .logo-images.dropbox {
     width: 170px;
   }
-  .logo-images.zoom{
+  .logo-images.zoom {
     width: 130px;
   }
-  .logo-images.ibm{
+  .logo-images.ibm {
     width: 90px;
   }
-  .logo-images.docomo{
+  .logo-images.docomo {
     width: 150px;
   }
   .section3 {
@@ -535,13 +536,14 @@ a:hover {
     /* margin: 120px; */
     padding: 120px;
     position: relative;
-    top:-80px;
+    top: -80px;
   }
-  .image3{
+  .image3 {
     height: 80px;
     width: 80px;
   }
-  h3,.heading2 {
+  h3,
+  .heading2 {
     font-weight: 600;
     font-size: 2.2rem;
     padding-bottom: 50px;
@@ -551,7 +553,7 @@ a:hover {
     font-weight: 400;
     padding: 10px;
   }
- 
+
   .popUp {
     height: 120px;
     width: 450px;
@@ -559,9 +561,8 @@ a:hover {
     margin-bottom: 30px;
     margin-top: 20px;
     font-size: 2.2rem;
-
   }
-  .section3-popUps{
+  .section3-popUps {
     position: relative;
     top: -60px;
   }
@@ -587,7 +588,7 @@ a:hover {
     justify-content: center;
     align-items: center;
   }
-  .flex{
+  .flex {
     margin-right: 180px;
   }
   .section-6 {
@@ -599,7 +600,7 @@ a:hover {
     margin: 0 auto;
     padding: 0 90px;
   }
-  .image6{
+  .image6 {
     width: 90px;
   }
   .Otter-text {
@@ -648,23 +649,42 @@ a:hover {
     border-radius: 30px;
     width: 300px;
   }
-  .floating-inner {
-    margin-top: 150px;
+  .floating-inner{
+    margin-bottom: 0;
   }
-  .floating-inner.inner {
-    margin-top: 0;
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    border-radius: 20px;
+    background-color: white;
+    padding: 25px;
+    margin-top: 5px;
+    margin-left: 40px;
   }
   .floating.floatner {
     display: flex;
     margin-top: 0;
     padding: 0;
   }
+  .foooter{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer{
+    padding-top: 180px;
+    padding-right: 180px;
+    padding-left: 180px;
+  }
   .footer-layout {
     padding-top: 10px;
+    text-align: start;
   }
   .layout {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 80px;
   }
   .footer-layout.foots {
     text-align: start;

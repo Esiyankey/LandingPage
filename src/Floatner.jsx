@@ -121,7 +121,7 @@ export const Floatner = () => {
     <div className="floating floatner">
       {items.map((item) => {
         return (
-          <div key={item.name} className="floating-inner inner">
+          <div key={item.name} className="inner">
             <div className="image7">
               <img src={item.img} alt="sliding image" />
             </div>
