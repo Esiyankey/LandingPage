@@ -593,24 +593,37 @@ a:hover {
   .section-6 {
     display: flex;
     align-items: center;
-    padding: 140px;
+    justify-content: center;
+    gap: 120px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 90px;
+  }
+  .image6{
+    width: 90px;
   }
   .Otter-text {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 0;
   }
   .image-text {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
   .img-icon {
-    width: 250px;
-    height: 250px;
-    text-align: center;
+    width: 260px;
+    height: 260px;
   }
   .img-text {
-    font-size: 2.1rem;
+    font-size: 1.5rem;
+    text-align: start;
   }
   .par-wrap {
+    width: 350px;
+    /* margin: 0 auto; */
     text-align: center;
   }
   .par-wrap h6 {
@@ -618,7 +631,10 @@ a:hover {
   }
   .big-screen {
     display: block;
-    font-size: 1.3rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   .btn {
     display: block;
@@ -626,17 +642,17 @@ a:hover {
     padding: 18px 30px;
     color: white;
     transition: 0.3s ease-in;
-    font-size: 0.85rem;
+    font-size: 1rem;
     border: 1px solid #007aff;
     background-color: #007aff;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 300px;
   }
   .floating-inner {
     margin-top: 150px;
   }
   .floating-inner.inner {
-    margin-top: 10px;
+    margin-top: 0;
   }
   .floating.floatner {
     display: flex;
