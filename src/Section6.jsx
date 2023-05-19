@@ -30,7 +30,7 @@ export const Section6 = () => {
               <p className="img-text" data-aos="zoom-in">
                 Get the most out of your meetings
               </p>
-              <div className="big-screen">
+              <div className="big-screen" data-aos="zoom-in">
               Otter empowers everyone to engage and be more productive in meetings with real time automated notes and audio transcription.
               </div>
               <button className="btn">
@@ -54,7 +54,7 @@ export const Section6 = () => {
               <p className="img-text" data-aos="zoom-in">
                 Help students and Faculty succeed
               </p>
-              <div className="big-screen">
+              <div className="big-screen" data-aos="zoom-in">
               Otter provides faculty and students with real time captions and notes for in-person and virtual lectures, classes or meetings.
               </div>
               <button className="btn">
@@ -78,7 +78,7 @@ export const Section6 = () => {
               <p className="img-text" data-aos="zoom-in">
                 For all your needs
               </p>
-              <div className="big-screen">
+              <div className="big-screen" data-aos="zoom-in">
               Otter has you covered with real-time voice transcription and features to empower more productive interactions.
               </div>
               <button className="btn">

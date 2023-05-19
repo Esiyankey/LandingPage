@@ -118,11 +118,11 @@ h1 {
   background-color: #007aff;
   color: white;
 }
-.video-container {
+/* .video-container {
   padding-bottom: 56.25%;
   width: 100%;
   position: relative;
-}
+} */
 .big-screen {
   display: none;
 }
@@ -448,35 +448,31 @@ a:hover {
   }
   .Section-Hero {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin: auto;
     height: 40rem;
-    width: 1500px;
-    margin: 180px auto;
-    border-radius: 20px;
-    background-color: blue;
+    border-radius: 0.9rem;
+    margin: 180px;
+    overflow: hidden;
   }
   .button {
     padding: 0.9rem 2rem;
     width: 150px;
   }
   .hero1 {
-    height: 100%;
-    position: relative;
     margin: 0;
-    padding: 0;
+    flex: 0.28;
+    padding: 80px;
+    text-align: start;
   }
   h1 {
-    padding-top: 10rem;
+    font-size: 3rem;
+    line-height: 3.3rem;
   }
   .video-container {
-    padding: 0;
-    height: 100%;
+    flex: 0.72;
   }
-  .video {
-    position: relative;
-    max-width: 100%;
-    width: 1000px;
+  video{
+    object-fit: cover;
   }
   .Section2 {
     display: flex;
@@ -649,7 +645,7 @@ a:hover {
     border-radius: 30px;
     width: 300px;
   }
-  .floating-inner{
+  .floating-inner {
     margin-bottom: 0;
   }
   .inner {
@@ -668,11 +664,11 @@ a:hover {
     margin-top: 0;
     padding: 0;
   }
-  .foooter{
+  .foooter {
     display: flex;
     justify-content: space-between;
   }
-  .footer{
+  .footer {
     padding-top: 180px;
     padding-right: 180px;
     padding-left: 180px;
@@ -683,7 +679,7 @@ a:hover {
   }
   .layout {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 80px;
   }
   .footer-layout.foots {
