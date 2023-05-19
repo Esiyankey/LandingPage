@@ -17,17 +17,15 @@ function App() {
     <>
       <Navbar />
       <SectionDivide />
-      <div className="App">
-        <Section2 />
-        <Logo />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
-        <Floating />
-        <Floatner />
-        <Footer />
-      </div>
+      <Section2 />
+      <Logo />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Floating />
+      <Floatner />
+      <Footer />
     </>
   );
 }

@@ -80,8 +80,7 @@ a {
 /*Section styles here*/
 .hero1 {
   text-align: center;
-  padding-top: 2.7rem;
-  padding-bottom: 2.7rem;
+  padding: 2.7rem;
   background-color: #001e34;
   color: #ffffff;
   margin-top: 5rem;
@@ -257,6 +256,7 @@ h5 {
   text-align: center;
   padding: 20px;
   position: relative;
+  overflow-x: hidden;
 }
 .Otter-text {
   margin-bottom: 70px;
