@@ -383,6 +383,41 @@ a:hover {
   }
   .Navbar{
     background:none;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+  }
+  .side-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+  .contact{
+    border-right: 1px solid  rgba(128, 128, 128, 0.856) ;
+    padding: 15px;
+  }
+  .Free{
+    padding: 20px 55px;
+    background-color: #1182fa;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    color: white;
+    border: 1px solid #007aff;
   }
   .menu{
     display: none;
