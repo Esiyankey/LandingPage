@@ -449,9 +449,9 @@ a:hover {
   .Section-Hero {
     display: flex;
     margin: auto;
-    height: 40rem;
+    height: 43rem;
     border-radius: 0.9rem;
-    margin: 180px;
+    margin: 130px;
     overflow: hidden;
   }
   .button {
