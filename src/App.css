@@ -476,9 +476,13 @@ a:hover {
     max-width: 100%;
     width: 1000px;
   }
-  .section2 {
+  .Section2 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .hero2{
+    text-align: start;
+    padding: 30px;
   }
   .image {
     width: 45rem;
@@ -506,9 +510,10 @@ a:hover {
   }
   .section3-text {
     text-align: start;
-    margin: 180px;
+    margin: 120px;
+
   }
-  h3 {
+  h3,.heading2 {
     font-weight: 600;
     font-size: 2.7rem;
     padding-bottom: 50px;

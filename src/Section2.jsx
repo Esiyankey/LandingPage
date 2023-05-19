@@ -16,7 +16,7 @@ export const Section2 = () => {
     <div className="Section2">
       <div className="hero2">
         <h4 className="heading2">Write Notes and Summarize Meetings 30x faster</h4>
-        <p >
+        <p className="p-text">
           Collaborate with teammates in the live transcript, by adding comments,
           highlighting key points, and assigning action items.
         </p>
