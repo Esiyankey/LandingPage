@@ -80,11 +80,14 @@ a {
 /*Section styles here*/
 .hero1 {
   text-align: center;
-  padding: 2.7rem;
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
   background-color: #001e34;
   color: #ffffff;
   margin-top: 5rem;
   line-height: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 sup {
   font-size: 0.8rem;
