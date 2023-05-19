@@ -1,7 +1,7 @@
 import React from "react";
 
 import Marquee from 'react-fast-marquee'
-export const Floating = () => {
+export const Floatner = () => {
   const items = [
     {
       img: "https://assets-global.website-files.com/618e9316785b3582a5178502/61f8066c07825a32b86caffd_Katie.png",
@@ -118,10 +118,10 @@ export const Floating = () => {
   ];
   return (
     <Marquee>
-    <div className="floating float">
+    <div className="floating floatner">
       {items.map((item) => {
         return (
-          <div key={item.name} className="floating-inner">
+          <div key={item.name} className="floating-inner inner">
             <div className="image7">
               <img src={item.img} alt="sliding image" />
             </div>
@@ -137,3 +137,4 @@ export const Floating = () => {
     </Marquee>
   );
 };
+
