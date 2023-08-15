@@ -181,6 +181,9 @@ p {
 .section3 {
   display: block;
 }
+/* .keep3{
+  width: 60rem;
+} */
 .section3-text {
   text-align: center;
   padding-bottom: 70px;
